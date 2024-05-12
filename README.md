@@ -1,6 +1,6 @@
 | NAME                     | PROMPT                        | DESCRIPTION                                                  | EXAMPLE                                 |
 |--------------------------|-------------------------------|--------------------------------------------------------------|-----------------------------------------|
-| `app.yaml`               | Create Application Config     | YAML to define the basic schema of a Kubernetes application  | [app.yaml](app.yaml)               |
+| `app.yaml`               | Create Application Config     | YAML to define the basic schema of a Kubernetes application  | [app.yaml](yaml/app.yaml)               |
 | `app-livenessProbe.yaml` | Add Liveness Probe            | YAML to define a liveness probe for your application         | [app-livenessProbe.yaml](app-livenessProbe.yaml) |
 | `app-readinessProbe.yaml`| Add Readiness Probe           | YAML to define a readiness probe for your application        | [app-readinessProbe.yaml](app-readinessProbe.yaml) |
 | `app-volumeMounts.yaml`  | Configure Volume Mounts       | YAML to define and configure storage volumes for your application | [app-volumeMounts.yaml](app-volumeMounts.yaml) |
